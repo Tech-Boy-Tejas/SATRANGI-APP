@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArunachalPradesh"
+    android:background="#FF7F00">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="50dp"
+            android:text="Culture of Arunachal Pradesh"
+            android:textColor="#9C27B0"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView68"
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:layout_marginTop="128dp"
+            android:text="HISTORY"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.051"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView67" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="0dp"
+            android:layout_height="215dp"
+            android:layout_marginTop="196dp"
+            android:src="@drawable/arunachal_pradesh_0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.116"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView69"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="424dp"
+            android:text="Arunachal Pradesh is an ancient land of legend and antiquity. The widely scattered ruins in the state bear testimony to the fact that once upon a time a rich culture flourished in this region. Arunachal Pradesh is mentioned in Kalki Purana and Mahabharata. It is a place called Prabhu Parvat described in Puranas. Parashurama had atoned for his sins here, Rishi Vyas worshiped here, King Bhishmak established his kingdom here and Lord Krishna married Rukmini.  Archaeological remains spread in different parts of Arunachal Pradesh show that it has a rich cultural tradition. The first ancestor of the tribal groups migrated from Tibet and was joined by Thai-Burmese counterparts later. Except for the north-western parts of the state, little is known about the history of Arunachal Pradesh, although the Adi tribe had legendary knowledge of the history.  The earliest references of Arunachal are found in the era of Mahabharta, Ramayana and other Vedic legends. Several characters, such as king Bhismaka, were referred to as people from the region in the Mahabharata epic. The archaeological remains at Bhishmak Nagar, the pilgrimage site at Brahmakund in Lohit and the ruins of Bhalnkpang fort in Kameng relate back to Puranic legend.  Bhismaknagar Fort Bhismaknagar Fort Source: theindiatourism.com Recent excavation of ruins of Hindu temples such as 14th Malinithan at the foot of the Siang hills in West Silang shed new light on the ancient history of Arunachal Pradesh. Paintings of the Hindu Gods and altars remained untouched for many years. They attracted many local pilgrims.  Another notable heritage site, the 400-year-old Tawang monastery in the Tawang district, also provides historical evidence of the Buddhist tribal people. Historically, the area had a close relationship with Tibetan people and Tibetan culture, for example, the sixth Dalai Lama Tsangyang Gyatso was born in Tawang.  Recorded history was available only in the Ahom chronicles during the seventeenth century, The tribal Monpa and Sherdukpen parts of this area when it came under the control of Monpa kingdom of Monyl, which flourished between 500 B.C. and 600 A.D. This region then came under the loose control of Tibet and Bhutan, especially in the northern areas. The rest part of the state, bordering Myanmar was ruled by  Ahom rulers and the Assamese until the annexation of India by the British in 1858."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.051"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView70"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="125dp"
+            android:text="CULTURE"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.007"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView69" />
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="wrap_content"
+            android:layout_height="218dp"
+            android:layout_marginTop="200dp"
+            android:src="@drawable/arunachal_pradesh_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView69" />
+
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Arunachal Pradesh is inhabited by the world’s largest variety of ethnic tribal groups and subgroups. There are about twenty-six major tribes and each tribe has its own language, dialects, and own rich culture and traditional heritage. Major tribes include Adis, Apatanis, Daflas, Monpas, Mishmis, Wangchu, Noktey, Akas, Nishis and Sherdukpens. These tribes are peace-loving and enjoy festivals and food together.  Women of Arunachal Pradesh Women of Arunachal Pradesh Most of the tribes inhabiting the land are ethnically similar, having derived from originally common stock but their geographical isolation from each other has brought amongst them certain distinctive characteristics in language, dress, and customs. The diverse and unique culture, art and crafts, fairs and festivals, folklore, dance, and music are still fresh and well-preserved in this state. For basic live hood people in the rural areas chiefly practice diverse trade including Jhum and Wet rice cultivation, horticulture, fish farming, carpet making, wood carving, breeding of Mithun, Yak, Sheep, and other livestock.  The culture and costumes of the northern region of the state, religion, influenced by social indicated and spoken Tibetan influence Burmese culture tribes like dwelling Khamit in the eastern region, while the southern region is affected by the Assamese culture. There is a huge Buddhist Vihara in the state of Tawang. The people of Arunachal Pradesh are hardy, courageous, self-reliant and fiercely independent and are lovers of music and dance, with each tribe having its own arts and crafts."
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.007"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView32" />
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginTop="100dp"
+            android:text="CUISINES"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView71" />
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="0dp"
+            android:layout_height="289dp"
+            android:layout_marginTop="191dp"
+            android:src="@drawable/arunachal_pradesh_2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView71" />
+
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="92dp"
+            android:text="A typical dish of Arunachal Pradesh varies with region and according to the tribal influence. An alcoholic drink Apong or rice beer made from fermented rice or millet is a popular beverage in Arunachal Pradesh. The staple food is rice along with fish, meat and green vegetable. Rice is prepared in two ways called Dung Po and Kholam. Rice is such an integral part of their culture that their Mopin festival of the Galo tribe is celebrated with smearing rice on people’s faces. Fried food is not very popular as people like to eat either boiled or smoked food.  Thukpa is a signature dish of the state and is a delicious noodle soup prepared with a variety of meats and vegetables. Curry leaves are a must-have ingredient in every dish, so is bamboo shoot in Arunachal Pradesh. Lettuce is the most preferred vegetable of all. There is devoid of any spice and is nutritious due to the generous use of herbs and vegetables.  They love fermented soybeans, fermented meat and fish, bamboo shoots, phoi hom (indigenous scented spice leaves) and pickles. Fish is consumed only occasionally due to its scarce availability. Chicken, mutton, pork, and Mithun are consumed throughout the state. Wild birds and animals were a big part of their diet but Modern restrictions on hunting have made that non-existent."
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView33" />
+
+        <Button
+            android:id="@+id/button93"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:backgroundTint="#2196F3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

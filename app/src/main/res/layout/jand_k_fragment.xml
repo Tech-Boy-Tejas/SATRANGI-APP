@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JandK"
+    android:background="#FF7F00">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="50dp"
+            android:text="CULTURE OF JAMMU AND KASHMIR"
+            android:textColor="#9C27B0"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:layout_marginTop="128dp"
+            android:text="HISTORY"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.051"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView25" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="0dp"
+            android:layout_height="215dp"
+            android:layout_marginTop="196dp"
+            android:src="@drawable/jandk_0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.116"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="424dp"
+            android:text="The history of Kashmir started just before the great Mahabharat war. The first ruler of Kashmir was Gonanda, Gonanda was killed in a battle along with his son and at the time of the commencement of the Mahabharat war, Gonanda II was ruling over Kashmir. Ashoka founded the old city of Srinagar known now as “Pandrethan”. After the death of Ashoka, his son Jaluka ascended the throne of Kashmir, and the latter was succeeded by his son King Damodar II.
+
+The valley for over two hundred years was ruled by Indo-Greek Kings before the start of the “Turushka” (Kushan) rule in the state. The contact with the Greeks is responsible for the beautiful architectural and sculptural style of old Kashmir temples. Khemgupta ascended the throne of Kashmir in 950. The last Hindu ruler of Kashmir was Udayan Dev. Before his death, he embraced Islam. His death in 1339 paved the way for the establishment of Muslim rule in Kashmir.
+
+Then Kashmir was ruled by Muslims and Mughal respectively. The Mughal rulers never came alone but were always accompanied by hundreds of Nobles, Amirs and Umrah, Princes, and Army Generals. Then came the Afghan Rule and the Dogra Period, The greatest service of the first Dogra ruler is the foundation that he laid for the modern Jammu and Kashmir State.
+
+When India got freedom in 1947 Hari Singh the Maharaja of Jammu and Kashmir, wanted his state to remain independent, and have two options either to include their state in India or in Pakistan, Hari Singh took a long time to make this decision. At the same time, Kashmiri (Muslim majority population) on the Pakistan side opened a front against Hari Singh. To deal with the rebellion, Hari Singh sought the help of the Indian Army and agreed to merge his kingdom in India."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.051"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            android:text="PEOPLE"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.007"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="218dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/jandk_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="The Kashmiri population in an ethno-linguistic group that can be compared with an Indo-Greek with their racial structure of the Kashmiris. The native of Kashmiri people lives in Pakistan, Upper Punjab and Potohar where they organize a group and live together. Although, Kashmiri people live in different parts of India they are mainly gathered in the Valley of Kashmir, Doda, Kishtwar and Ramban thasils of Jammu Division.  Their language is highly influenced by the Sanskrit language and mostly spoken by Kashmiri Muslims and Kashmiri Hindus. However, you can find variation in language when you will travel to different parts of Kashmir. Their writing script consists of Arabic style.
+
+According to the sources, Wazwan and their culture is highly influenced by Central Asian and Persian culture. Their dance, music, cuisine, carpet weaving and Koshur Sufiana forms a significant part of Kashmiri identity. Kashmiri culture is mainly followed by people living in Kashmir valley and Dodab of the Chenab region. The valley is known for the fine arts including traditional boats and houseboats, handicrafts and poetry."
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.007"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginTop="50dp"
+            android:text="CUISINES"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="0dp"
+            android:layout_height="289dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/jandk_2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Kashmir has some mouth-watering cuisine in both vegetarian and non-vegetarian dishes. The popular dishes of meat are Kashmiri Kebag, Rogan Josh, Yakhni, Pasanda, Syun Alu and Methi Keema. All the non-vegetarian lovers will have a lot to choose from. Some of the famous vegetarian dishes include Hak, Rajmah, Zarda, Tursh, Shree Pulao, Nadeir Yakhaen, and Ladyar Tsaman. These dishes are prepared with fresh vegetables with paneer to give an interesting taste to the cuisine.
+
+If you are dessert lover then you must try sevaiyaan, phirni and barfi among others which would make you fall in love with these sweets. Guest in Kashmir is welcomed with hot sheer tea and Kahwah which you have never tasted before. Kashmiri Pulao is also a famous dish worldwide which is prepared in almost every home at regular intervals. A large number of Kashmiri people also love hak or karam sag which is mostly made during winter to keep themselves protected from chilled weather."
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+        <Button
+            android:id="@+id/button94"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:backgroundTint="#2196F3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

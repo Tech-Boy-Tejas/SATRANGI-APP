@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TamilNadu"
+    android:background="#FF7F00">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="50dp"
+            android:text="Culture of Tamil Nadu"
+            android:textColor="#9C27B0"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:layout_marginTop="128dp"
+            android:text="HISTORY"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.051"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView46" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="0dp"
+            android:layout_height="215dp"
+            android:layout_marginTop="196dp"
+            android:src="@drawable/tamil_nadu_0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.116"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="424dp"
+            android:text="The ancient history of Tamil Nadu dates back to some 6000 years. The four ancient Tamil empires were Chera, Chola, Pandya, and Pallavas ruled the area.
+
+The early Cholas reigned between 1st and 4th century AD. The first and most famous king of this period was Karikalan. They occupied the present Thanjavur and Tiruchirapalli Districts and excelled in military exploits. During the later half of 4th century AD, Pallavas the great temple builders emerged into prominence dominated the south for another 400 years. They ruled a large portion of Tamil Nadu with Kanchipuram as their base. In the 6th century, they defeated the Cholas and reigned as far as Ceylon (Sri Lanka).
+
+Among the greatest Pallava rulers were Mahendravarman-l and his son Narasimhavarman. Dravidian architecture reached its epitome during Pallava rule. The last Pallava King was Aparajitha. He was defeated by Aditya Chola towards the end of the 9th century AD.
+
+The Cholas again rose to power by 9th century AD. The Chola empire stretched as far as central India, Orissa, and parts of West Bengal. Rajaraja Chola conquered the eastern Chalukya kingdom, defeated the Cheras, annexed parts of Ceylon by defeating the Pandyas. Rajendra Chola went beyond and occupied the islands of Andaman Nicobar, Lakshadweep, Sumatra, Java, Malaya and the islands of Pegu with his fleet of ships. He defeated Mahipala the king of Bihar and Bengal and to commemorate his victory he built a new capital called ‘Gangaikonda Cholapuram’. The power of the Cholas declined around the 13th century.
+
+With the decline of the Cholas, the Pandyas rose to prominence once again in the early 14th century. The last Pallava ruler was Aparajita, in whose reign the later Cholas under Vijayalaya and Aditya asserted themselves by about the 10th century. At the end of the 11th century, Tamil Nadu was ruled by several dynasties like the Chalukyas, Cholas, and Pandyas. In the two centuries that followed, the imperial Cholas gained paramountcy over South India.
+
+But it was short-lived when they were subdued by the Khilji invaders from the North in 1316. The city of Madurai completely destroyed and ransacked. The Muslim invasion weakened both the Cholas and Pandyas and led to the establishment of the Bahmani Kingdom. The Muslim invasion of the South in the 14th century caused a retaliatory reaction from the Hindus, who rallied to build a strong new kingdom, called the Vijayanagara empire. It absorbed all strongholds of Cholas and other local Hindu rulers to check the Muslims.
+
+But by 1564 the Vijayanagara empire came to an end at the hands of Deccan Sultans in the battle of Talikota. After the Battle of Talikota, Europe’s people also started showing interest in the rule of southern India, due to which they also became enemies of Maharaja of the local state. Shortly after this, Portuguese, French, and English came here and opened their own trade centers in the name of the factory.
+
+In 1611, East India Company established the first factory in Masulipatnam of Andhra Pradesh and gradually incited the local rulers here against each other and made them an enemy who fought among themselves. The name of Tamil Nadu is included in the first place where the British started its business in India.
+
+This state was first called by the Madras Presidency in the year 1901. But later the entire Madras province was made Tamil Nadu. When India became independent in 1947, Madras Presidency became Madras State, comprising Tamil Nadu, coastal Andhra Pradesh, northern Kerala, and the southwest coast of Karnataka.
+
+In 1953 Madras State was bifurcated into two states: Andhra Pradesh, comprising the northern Telugu speaking areas, and Madras State, comprising the southern Tamil-speaking areas. In 1968, Madras State adopted a new name – Tamil Nadu. The capital city Madras was renamed Chennai in 1996."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.051"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            android:text="CULTURE"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.007"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="218dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/tamil_nadu_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="The people of Tamil Nadu live a great, comfortable lifestyle and their art and culture are deeply embedded into it. People of Tamil Nadu understand the ethnicity of their culture and abide by the rituals and traditions of their community.
+
+Carnatic Music
+Carnatic Music
+Tamil people are very interested in music, dance, and literature. For centuries here Bharatnatyam and many types of music, including Carnatic music, have flourished. Tamil Nadu has a long history of its literature, art, music, and dance and is an emerging hub of technology and modern lifestyle in India and is one of the top-performing states of the Literacy rate in India.
+
+Hinduism is the most dominant religion with over 88% of the total population is Hindus. Christians and Muslims together form the rest proportion of the population of the state. Tamil Nadu is most famous for the ancient Hindu temples of here and Bharatnatyam dance. Bharatnatyam, Thanjor painting and Tamil architecture have developed very much and today even the people here work to keep this culture alive."
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.007"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginTop="50dp"
+            android:text="CUISINES"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="0dp"
+            android:layout_height="289dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/tamil_nadu_2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Tamil Nadu cuisines are a perfect blend of sweet, spicy, sour and tangy flavors. Its iconic cuisine is South Indian staples like idli sambar, masala dosa with perfectly poured coffee.
+
+Rice is the staple food of Tamil Nadu and food made from rice and lentils like Idli, Dosa, and Uthappam with sambhar are popularly served on a banana leaf and are eaten by the right hand. Special spices are blended and are used in cooking, tamarind is also used commonly as a souring agent. Use of curry leaves, mustard seeds, coconut with various spices add a distinct aroma to the food.
+
+Idly, vadai, dosai, pongal, aappam, paniyaram are consumed on daily basis, while a mega meal has Poriyal, Curry, Varuval, Pachadi, Payasam, Rasam, Sambar, Thokku, Vadai, Appam, Rice, Kuzambu along with a few sweets, buttermilk, and fruit. Payasam is usually eaten as a dessert to finish the meal. Coffee is their popular beverage served in a unique coffee cup."
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView24" />
+
+        <Button
+            android:id="@+id/button90"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:backgroundTint="#2196F3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

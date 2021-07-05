@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Assam"
+    android:background="#FF7F00">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView74"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="50dp"
+            android:text="Culture of Assam"
+            android:textColor="#9C27B0"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView75"
+            android:layout_width="103dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="128dp"
+            android:text="HISTORY"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.051"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView74" />
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="0dp"
+            android:layout_height="215dp"
+            android:layout_marginTop="196dp"
+            android:src="@drawable/assam_0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.116"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView76"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="424dp"
+            android:text="The roots of Assamese culture go back almost two thousand years when the first cultural assimilation took place between Austro-Asiatic and Tibeto-Burman groups.  There were three waves of cultural assimilation in Assam. First, it was the Tibeto-Burman ethnic groups that had arrived from Tibet, Yunnan, and Sichuan provinces of China who mixed with the scarcely present aboriginal Austric people like the Khasi and Jaintia.  Then there was a wave of Indo-Aryans from Northern India, which brought the Vedic culture and Hinduism into Assam.  The last wave of migration was that of the Ahoms (Tai/Shan) who added another chapter to the Assamese culture. The Ahoms, later on, brought some more Indo-Aryans like the Assamese Brahmins and Ganaks and Assamese Kayasthas to Assam. The Assam we know today was founded by Ahom kings.  During the six hundred years of ruling, the Ahom dynasty managed to keep the kingdom, independent from Mughal, the muslin invaders of India before the British, as well as other invaders though Mughal attacked Assam seventeen times. During this era, the Assamese society was exogenous.  The British entered Assam in 1824 as a tea planter which was the starting point of the destruction of the Ahom dynasty. Along with the British, the immigrants entered Assam from India together with their traditional beliefs such as the caste system and dowry system. Some of the immigrants become a part of the Assamese society, and the other still practice their traditions.  British ruled till 1947. With the freedom of India, Assam also became able to achieve independence and became a part of it. Since then Assam has been passing her time as a part of the Indian union."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.051"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView77"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            android:text="CULTURE"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.007"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView76" />
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="wrap_content"
+            android:layout_height="218dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/assam_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView76" />
+
+        <TextView
+            android:id="@+id/textView78"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Assam culture is influenced by the Ahom dynasty and the Koch kingdom who ruled the region for many years. One of the major cultural change was brought by the Vaishnava movement.  The native people of Assam are called Asomiya (Assamese), they are a mixture of Mongoloid, Indo-Burmese, Indo-Iranian, and Aryan. Their culture has evolved through a long assimilation process of various races.  The state has a large number of tribes out of which Boro is the largest tribe in Assam, while Chakma, Chutiya, Dimasa, Hajong, Garo, Khasis, Gangte, and other tribes are also there. While the majority of the Assamese is of Vaishnava’s tribe among which social institutions such as Namghar (house of prayer) and Sattra (the site of religious and cultural practice) became popular."
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.007"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView35" />
+
+        <TextView
+            android:id="@+id/textView79"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginTop="50dp"
+            android:text="CUISINES"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView78" />
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="0dp"
+            android:layout_height="289dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/assam_2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView78" />
+
+        <TextView
+            android:id="@+id/textView80"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Assamese cuisine is a combination of the cooking technique used by people living in hilly regions and those living in plains. A traditional Assamese meal begins with Khar and ends with a spicy and tangy Tenga, Betelnut and paan conclude the meal.  Some traditional Assamese dishes are pura maas mankho, dheakiyasak, pitika etc. A typical Assamese meal has rice (bhat) and dal masoor jool (fish curry) with mangxo (meat curry) and bhaji (herbs and vegetables).  A variety of rice is grown in Assam and is used as the main dish. Fish curry is made of wild fish like Borali, Rou, Illish or Sital. Fowl such as ducks and pigeons are also used while pork, chicken, and mutton are much popular among youngsters.  Other kinds of meat include grasshoppers, locusts, silkworms, snails, eels, wildfowl, birds, and deer meat.  Khorisa is fermented bamboo shoots used to flavor curries, Koldil (bamboo flower), and squash are used as vegetables.  They traditionally brew their drinks in the home like Laupani, Xaaj, Paniyo, Jou, joumai, Hot, Apang, and are offered on festive to guests."
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView36" />
+
+        <Button
+            android:id="@+id/button92"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:backgroundTint="#2196F3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

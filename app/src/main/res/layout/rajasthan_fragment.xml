@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rajasthan"
+    android:background="#FF7F00">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="50dp"
+            android:text="Culture of Rajasthan"
+            android:textColor="#9C27B0"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:layout_marginTop="128dp"
+            android:text="HISTORY"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.051"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView60" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="0dp"
+            android:layout_height="215dp"
+            android:layout_marginTop="196dp"
+            android:src="@drawable/rajasthan_0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.116"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView62"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="424dp"
+            android:text="Rajasthan, the land of Kings, has royal grandeur and a glorious history; it is a charming and captivating state of India. It is known for many brave kings, their deeds; and their interest in art and architecture. Its name means “the land of the rajas”. It was also called Rajputana (the country of the Rajputs); whose codes of chivalry shaped social mores just as their often bitter and protracted feuding dominated their politics.
+
+The first mention of the word Rajasthan comes from the works of George Thomas and James Tod. However, western Rajasthan with eastern Gujarat was part of “Gurjaratra” or Gurjarabhumi, land of Gurjars. The local dialects of the time use the expression Rājwār, the place or land of kings, later corrupted by the British to Rajputana.
+
+The history of Rajasthan goes back as far as Indus Valley Civilization, the foundation of Rajasthani community took shape with the rise of Western Middle Kingdoms such as Western Kshatrapas, who were the successors to the Indo-Scythians who invaded the area of Ujjain and established the Saka era.
+
+Saka calendar (also been adopted as Indian national calendar) is used by the Rajasthani community and adjoining areas such as Punjab and Haryana. With time their social structures got stronger reorganizations giving birth to several martial sub-ethnic groups (previously called a Martial race but now obsolete term). Rajasthanis emerged as major merchants during medieval India. Rajasthan was among the important centers of trade with Rome, the eastern Mediterranean, and Southeast Asia."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.051"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            android:text="CULTURE"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.007"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView62" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="wrap_content"
+            android:layout_height="218dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/rajasthan_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView62" />
+
+        <TextView
+            android:id="@+id/textView64"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Rajasthan has cultural traditions that reflect the ancient Indian way of life. Rajasthani society is a blend of predominantly Hindus with sizable minorities of Muslims and Jains. Jats are mostly Hindus and Sikhs. Meenas of Rajasthan to date strongly follow Vedic culture which usually includes worship of Bhainroon (Shiva) and Krishna as well as the Durga.
+
+Rajasthan culture
+
+Rajasthani Wedding Traditions have their own distinct individual rituals of marriage. Marriage is considered one of the most important events in a couple’s lives. The traditional dance, music, gorgeous wedding attires, jewelry, wedding rituals are mesmerizing for any spectator. Mostly Rajasthani speaks Marwari language, as it is their native language."
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.007"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView29" />
+
+        <TextView
+            android:id="@+id/textView65"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginTop="50dp"
+            android:text="CUISINES"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView64" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="0dp"
+            android:layout_height="289dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/rajasthan_2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView64" />
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Famous dishes which Rajasthan is known for are Dal-Bati-Churma, Bikaneri Bhuji, bajre ki roti (millet bread) and lashun ki chutney (hot garlic paste), mawa kachori Mirchi Bada, Pyaaj Kachori and ghevar from Jodhpur, Alwar ka Mawa(Milk Cake), malpauas from Pushkar and rassgollas from Bikaner."
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView30" />
+
+        <Button
+            android:id="@+id/button96"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:backgroundTint="#2196F3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

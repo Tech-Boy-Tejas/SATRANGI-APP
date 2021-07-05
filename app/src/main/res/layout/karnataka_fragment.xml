@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Karnataka"
+    android:background="#FF7F00">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="50dp"
+            android:text="Culture of Karnataka"
+            android:textColor="#9C27B0"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:layout_marginTop="128dp"
+            android:text="HISTORY"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.051"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView39" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="0dp"
+            android:layout_height="215dp"
+            android:layout_marginTop="196dp"
+            android:src="@drawable/karnataka_0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.116"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="424dp"
+            android:text="Karnataka history can be traced back to the Pre-historic period. Karnataka is said to be one of the four Dravidian states associated with Indus-Valley civilization. Aryans from central Asia invaded the Dravidic city-state and civilized and colonized it.
+
+Archaeologists have discovered artifacts dating back to 5000 B.C.E. It has many sites of Pre-historic period and most of them are found scattered on the river valleys of Krishna, Bhima, Malaprabha, Ghataprabha, Cauvery, Hemavathi, Shimsha, Tungabhadra, Manjra, Pennar, Netravati, etc and their tributaries.
+
+Pre-historic studies in India started with the discovery of ash mounds at Kupgal and Kudatini in 1836 by a British Officer in the Bellary region, which then formed part of Madras presidency. Subsequent discoveries have revealed the existence of a stone-age man with innumerable Pre-historic sites in Karnataka.
+
+The Pre-historic culture of Karnataka viz. the hand-ax culture, compares favorably with the one that existed in Africa and is quite distinct from the Pre-historic culture of North India.
+
+The ragi grain is found commonly in pre-historic sites of Africa and Karnataka. The early inhabitants of Karnataka knew the use of iron weapons dating back to circa 1500 B.C. has been found.
+
+Before joining the Emperor Ashoka’s Mauryan Empire in the third century B.C.E., much of Karnataka was part of the Nanda Empire.
+
+The Satavahana Dynasty ruled the area for four centuries. After the fall of Satavahana, Western Ganga Empire emerged and established their independent political identity.
+
+They were the first empire to use the Kannada language in government management. After these empires, the imperial Kannada empire such as Badami Chalukyas, Rashtrakuta Dynasty and Western Chalukya Empire ruled over the vast part of Deccan and made Karnataka their capital.
+
+Western Chalukya preserved the unique art and architecture and Kannada literature, which began to be known as Hoysala Arts in the 12th century.
+
+Most of the present southern Karnataka was occupied by the Chola Empire in the 11th century. Prior to the arrival of the Hoysala Empire in the 12th Century. Chola and Hoysala were fighting to occupy the area among themselves.
+
+After the first millennium, Hoysala got strength in the field. At this time the literature was flourishing, which led to the emergence of special Kannada literature and statues and temples were built.
+
+With the expansion of the Hoysala Empire, some part of the present Andra Pradesh and Tamil Nadu was also included. In the early 14th century, the Vijayanagara Empire rose to successfully challenge the Muslim invasion into the south.
+
+In 1565, the Vijayanagara Empire fell in front of the Islamic Sultanate in the battle at Talikota. The Mughal Emperor Aurangzeb gave the order to besiege Bijapur. The Bahmani and Bijapur rulers encouraged Urdu and Persian literature and Indo Islamic architecture. Gol Gumbaz at that time has become the major part of his architecture.
+
+Parts of Karnataka were conquered by Marathas under Chhatrapati Shivaji. Subsequently, Nizam, Maratha Empire, British, Mysore Kingdoms of Hyderabad ruled northern Karnataka. After the death of Wodeyar II, Haider Ali the commander-in-chief of the Mysore army assumed control over the region."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.051"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            android:text="CULTURE"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.007"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="wrap_content"
+            android:layout_height="218dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/karnataka_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Karnataka has a rich cultural heritage, which has been continuously moving forward with the contribution of various empires. Karnataka literature, architecture, folklore, music, painting, and other art forms have a lot of impact on the people. You can see various ancient buildings and monuments, Mauryan Empire special architecture can also be found here.
+
+The statue of the 10th-century Jain saint Bahubali stone statue can be seen here. The influence of Chalukyas and the Pallava Empire can also be seen.
+
+A varied mixture of ethnicity, culture, and race comprises the people of Karnataka. While the maximum number of people residing here are Kannadigas. They live in perfect harmony and mutual contacts with their neighbors and intimidates (namely the Marathas, the Andras, the Tamils, and the Malayalis).
+
+The people of Karnataka are great hosts, their lifestyle is simple who abide by their unique customs, enchanting culture and beliefs."
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.007"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView20" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginTop="50dp"
+            android:text="CUISINES"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="0dp"
+            android:layout_height="289dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/karnataka_2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Karnataka is famous for the variety of dosa and sambhar it serves. Rice is the staple of Karnataka food. A typical Kannadiga Oota (meal) consists of rice, sambhar, pickle, ghee, dessert and other curry-based dishes served on a banana leaf.
+
+Popular dishes to try are Bisi Bele Bhaat, Neer dosa, Mangalorean fish curry and Kori Gassi (chicken curry). Rotis made of wheat, jowar and ragi are consumed. Chikkadikai (Kannada), ballar (Hindi) is a famous vegetable consumed in Karnataka.
+
+In dessert, they use milk, vermicelli, sugar, coconuts, jaggery, and dry fruits. Payasas Pedas of a different type, Kesari Bhath, and chiroti are some popular desserts of Karnataka."
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView21" />
+
+        <Button
+            android:id="@+id/button91"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:backgroundTint="#2196F3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

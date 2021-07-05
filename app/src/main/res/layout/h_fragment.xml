@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HP"
+    android:background="#FF7F00">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Culture of Himachal Pradesh"
+            android:textColor="#9C27B0"
+            android:padding="50dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:layout_marginTop="128dp"
+            android:text="HISTORY"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.051"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView32" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="0dp"
+            android:layout_height="215dp"
+            android:layout_marginTop="196dp"
+            android:src="@drawable/himachal_pradesh_0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.116"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="424dp"
+            android:text="Himachal Pradesh has been inhabited by human beings since the dawn of civilization. It has a rich and varied history which can be divided into several distinct eras. Himachal Pradesh region was called ‘Deva Bhoomi’. In the early period, tribes like the Koilis, Halis, Dagis, Dhaugris, Dasa, Khasas, Kinnars, and Kirats inhabited it.
+
+The Aryan influence in this area of India dates to the period before the Rigveda. Sankar Varma, the king of Kashmir exercised his influence over regions of Himachal Pradesh in about 883 AD.
+
+This region witnessed the invasion of Mahmud of Ghazni in 1009 AD, who during that period invaded and looted the wealth from the temples in the North of India.
+
+In about 1043 AD the Rajputs ruled over this territory. Known for its vibrant and exquisite natural scenery it received the royal patronage of the Mughal rulers who erected several works of art as an appreciation of this land.
+
+In 1773 AD the Rajputs under Sansar Chand possessed this region, till the attack by Maharaja Ranjit Singh in 1804 which crushed the Rajput power here. The Gurkhas who migrated from Nepal captured this area and devastated it.
+
+In the early 19th century the British exercised their influence and annexed the areas of Shimla after the Gurkha War of 1815-16. The British gradually emerged as the paramount power in the region. During the first Indian war of independence, rulers of hilly states remain inactive. The rulers of Chamba, Bilaspur, Bhagal, and Dhami, rendered help to the British government during the revolt. During World War I, virtually all rulers of the hill states remained loyal and contributed to the British war effort, both in the form of men and materials.
+
+The Chief Commissioner’s province of H.P. came into being on 15th April 1948. This Pradesh became a part C state on 26th January 1950 with the implementation of the Constitution of India. Bilaspur was merged with Himachal Pradesh on 1st July 1954. Himachal Pradesh became Union Territory on 1st November 1956. Kangra and most of the other hill areas of Punjab were merged with Himachal Pradesh on 1st November 1966 though its status remained that of a Union Territory. On 18th December 1970, the State of Himachal Pradesh Act was passed by Parliament and the new state came into being on 25th January 1971.
+
+Thus, Himachal Pradesh emerged as the eighteenth state of the Indian Union. It became a centrally administered territory in 1948 with the integration of 31 hill states and received additional regions added to it in 1966."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.051"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            android:text="CULTURE"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.007"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="wrap_content"
+            android:layout_height="218dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/himachal_pradesh_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Himachal Pradesh is a multireligious, multicultural as well as a multilingual state like other Indian states. In the south of the Greater Himalayas, the presence of Hinduism is strong. In the middle hills, rustic customs appear in worship or many local ‘gods’ and ‘goddess’. In Trans Himalaya, Buddhism has progressed successfully for more than 1,000 years. The presence of Christianity comes with the coming of the British and there are more than a dozen churches in this area in the state. Similarly, there are many places in the entire state which are sacred by the Sikhs. Islam records its presence in Nahan and some of the major cities around.
+
+Cultural and geographically, there are three well-defined areas of the state. ‘Adivasi belt’ belongs to Kinnaur and Lahaul-Spiti districts, it is largely Buddhist and the language is related to the Himalayan Belt of Tibetan-Burmese. The middle belts embrace this band and are characterized by wild hills and farmland valleys – with slopes, villages, farms, and orchards. Sub-healthy people of Himachal practice farming and this region is traditionally the largest concentration of population. Culture has been fostered by discrete people who live harmoniously on the same land."
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.007"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginTop="50dp"
+            android:text="CUISINES"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="0dp"
+            android:layout_height="289dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/himachal_pradesh_2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="There are not many specific varieties that one can get in Himachal Pradesh. A long-time relationship with Punjab and large-scale migration of Tibetans ensured the impact of the Tibetan and Punjabi cuisine on Himachal.
+
+Some of the unique Himachali cuisines include Nasasta (a sweetmeat) in the Kangra region; Indra (made of Urad dal), Baadi / Shaunda, and Bada/Poldu in the Shimla region; apart from favorites all over the state like Pateer, Chuck, Bhagjery and chutneys of Til (sesame seeds).
+
+Popular Vegetarian Dishes include Guchhi Mattar, Sepu Vadi, and Kaddu ka Khatta. While popular Non-Vegetarian Dishes are Kullu Trout, Grilled Fishes, and Chicken Anaardana. The popular sweets are Mittha and Nasasta which are made from Sweet Rice and Sweetmeat. Popular drinks of HP are Tea that is made in varieties of Buttermilk. Himachal Pradesh is the second-largest producer of apples after Jammu and Kashmir."
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView18" />
+
+        <Button
+            android:id="@+id/button95"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:backgroundTint="#2196F3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
