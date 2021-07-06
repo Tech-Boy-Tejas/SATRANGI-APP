@@ -94,8 +94,8 @@ public class ChangeName extends Fragment {
                 Toast.makeText(requireActivity(),"It's done" + name,Toast.LENGTH_SHORT);
             }
 
-            SharedPreferences getData = getActivity().getSharedPreferences("DataOfUser",MODE_PRIVATE);
-            String final_name = getData.getString("dataofuser","");
+            SharedPreferences getData = getActivity().getSharedPreferences("Data_User",MODE_PRIVATE);
+            String final_name = getData.getString("data_user","");
         });
         return rootView;
     }
