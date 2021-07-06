@@ -43,15 +43,15 @@ public class MainActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home,R.id.nav_national_anthem)
+                R.id.nav_home,R.id.nav_national_anthem,R.id.nav_change_name)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
 
-        SharedPreferences getNamefornav = getSharedPreferences("UsersData",MODE_PRIVATE);
-        String final_name = getNamefornav.getString("usersdata","");
+        SharedPreferences getNamefornav = getSharedPreferences("UsersDatashared",MODE_PRIVATE);
+        String final_name = getNamefornav.getString("usersdatashared","");
 
         NavigationView nav_for_text = findViewById(R.id.nav_view);
         View headerView = nav_for_text.getHeaderView(0);

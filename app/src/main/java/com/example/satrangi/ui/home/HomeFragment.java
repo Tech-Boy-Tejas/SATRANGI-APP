@@ -187,21 +187,45 @@ public class HomeFragment extends Fragment {
             public void onClick(View v) {
                 String name = editText.getText().toString();
 
-                SharedPreferences shrd = getActivity().getSharedPreferences("UsersData", MODE_PRIVATE);
+                SharedPreferences shrd = getActivity().getSharedPreferences("UsersDatashared", MODE_PRIVATE);
                 SharedPreferences.Editor editor = shrd.edit();
 
-                editor.putString("usersdata",name);
+                editor.putString("usersdatashared",name);
                 editor.apply();
 
                 textView.setVisibility(View.VISIBLE);
                 textView.setText("Hello " + name + ", Welcome to Satrangi");
                 save_btn.setVisibility(View.INVISIBLE);
                 editText.setVisibility(View.INVISIBLE);
+
+                NotificationManager notificationManager = (NotificationManager) requireActivity().getSystemService(NOTIFICATION_SERVICE);
+                NotificationCompat.Builder builder = new NotificationCompat.Builder(requireActivity(),"Notifications");
+
+                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+                    NotificationChannel notificationChannel = new NotificationChannel("Notifications","Notify",NotificationManager.IMPORTANCE_LOW);
+                    notificationChannel.enableLights(true);
+                    notificationChannel.setName("Notification Manager");
+                    notificationManager.createNotificationChannel(notificationChannel);
+                }
+
+                builder.setContentTitle("SATRANGI");
+
+
+                if(name != ""){
+                    builder.setContentText("Your name has been succesfuly saved, " + name);
+                }
+                else{
+                    builder.setContentText("You have not entered anything please try again");
+                }
+                builder.setSmallIcon(R.drawable.noti_icon);
+
+                notificationManager.notify(10,builder.build());
+
             }
         });
 
-        SharedPreferences getData = getActivity().getSharedPreferences("UsersData",MODE_PRIVATE);
-        String final_name = getData.getString("usersdata","");
+        SharedPreferences getData = getActivity().getSharedPreferences("UsersDatashared",MODE_PRIVATE);
+        String final_name = getData.getString("usersdatashared","");
 
         if(final_name != ""){
             save_btn.setVisibility(View.INVISIBLE);
@@ -215,34 +239,10 @@ public class HomeFragment extends Fragment {
         }
         textView.setText("Hello " + final_name + ", Welcome to Satrangi");
 
-
-        NotificationManager notificationManager = (NotificationManager) requireActivity().getSystemService(NOTIFICATION_SERVICE);
-        NotificationCompat.Builder builder = new NotificationCompat.Builder(requireActivity(),"Notifications");
-
-        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
-            NotificationChannel notificationChannel = new NotificationChannel("Notifications","Notify",NotificationManager.IMPORTANCE_HIGH);
-            notificationChannel.enableVibration(true);
-            notificationChannel.enableLights(true);
-            notificationChannel.setName("Notification Manager");
-            notificationManager.createNotificationChannel(notificationChannel);
-        }
-
-        builder.setContentTitle("SATRANGI");
-
-
-        if(final_name != ""){
-            builder.setContentText("Hello " + final_name + ", Welcome to Satrangi, Hope you are doing well");
-        }
-        else{
-           builder.setContentText("Hello User, Welcome to Satrangi, Hope you are doing well");
-        }
-        builder.setSmallIcon(R.drawable.noti_icon);
-
-        notificationManager.notify(10,builder.build());
-
-
         return rootView;
     }
+
+
 
 
     @Override
