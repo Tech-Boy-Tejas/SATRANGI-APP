@@ -202,7 +202,7 @@ public class HomeFragment extends Fragment {
                 NotificationCompat.Builder builder = new NotificationCompat.Builder(requireActivity(),"Notifications");
 
                 if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
-                    NotificationChannel notificationChannel = new NotificationChannel("Notifications","Notify",NotificationManager.IMPORTANCE_LOW);
+                    NotificationChannel notificationChannel = new NotificationChannel("Notifications","Notify",NotificationManager.IMPORTANCE_HIGH);
                     notificationChannel.enableLights(true);
                     notificationChannel.setName("Notification Manager");
                     notificationManager.createNotificationChannel(notificationChannel);
