@@ -187,10 +187,10 @@ public class HomeFragment extends Fragment {
             public void onClick(View v) {
                 String name = editText.getText().toString();
 
-                SharedPreferences shrd = getActivity().getSharedPreferences("Data_User", MODE_PRIVATE);
+                SharedPreferences shrd = getActivity().getSharedPreferences("DATA", MODE_PRIVATE);
                 SharedPreferences.Editor editor = shrd.edit();
 
-                editor.putString("data_user",name);
+                editor.putString("data",name);
                 editor.apply();
 
                 textView.setVisibility(View.VISIBLE);
@@ -224,8 +224,8 @@ public class HomeFragment extends Fragment {
             }
         });
 
-        SharedPreferences getData = getActivity().getSharedPreferences("Data_User",MODE_PRIVATE);
-        String final_name = getData.getString("data_user","");
+        SharedPreferences getData = getActivity().getSharedPreferences("DATA",MODE_PRIVATE);
+        String final_name = getData.getString("data","");
 
         if(final_name != ""){
             save_btn.setVisibility(View.INVISIBLE);

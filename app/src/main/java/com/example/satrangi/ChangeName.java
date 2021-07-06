@@ -39,32 +39,19 @@ public class ChangeName extends Fragment {
                              @Nullable Bundle savedInstanceState) {
         View rootView =  inflater.inflate(R.layout.change_name_fragment, container, false);
 
-        Button backbtn = (Button) rootView.findViewById(R.id.button9);
         Button editnamebtn = (Button) rootView.findViewById(R.id.button6);
-
         EditText editText = (EditText) rootView.findViewById(R.id.editname);
 
-        backbtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-                FragmentTransaction fragmentTransaction =  fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.nav_host_fragment_content_main,new HomeFragment()
-                );
-                fragmentTransaction.addToBackStack(null);
-                fragmentTransaction.commit();
-            }
-        });
 
         editnamebtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String name = editText.getText().toString();
 
-                SharedPreferences shrd = getActivity().getSharedPreferences("DataOfUser", MODE_PRIVATE);
+                SharedPreferences shrd = getActivity().getSharedPreferences("DATA", MODE_PRIVATE);
                 SharedPreferences.Editor editor = shrd.edit();
 
-                editor.putString("dataofuser",name);
+                editor.putString("data",name);
                 editor.apply();
 
                 NotificationManager notificationManager = (NotificationManager) requireActivity().getSystemService(NOTIFICATION_SERVICE);
@@ -94,8 +81,8 @@ public class ChangeName extends Fragment {
                 Toast.makeText(requireActivity(),"It's done" + name,Toast.LENGTH_SHORT);
             }
 
-            SharedPreferences getData = getActivity().getSharedPreferences("Data_User",MODE_PRIVATE);
-            String final_name = getData.getString("data_user","");
+            SharedPreferences getData = getActivity().getSharedPreferences("DATA",MODE_PRIVATE);
+            String final_name = getData.getString("data","");
         });
         return rootView;
     }
