@@ -61,10 +61,10 @@ public class ChangeName extends Fragment {
             public void onClick(View v) {
                 String name = editText.getText().toString();
 
-                SharedPreferences shrd = getActivity().getSharedPreferences("UsersDatashared", MODE_PRIVATE);
+                SharedPreferences shrd = getActivity().getSharedPreferences("DataOfUser", MODE_PRIVATE);
                 SharedPreferences.Editor editor = shrd.edit();
 
-                editor.putString("usersdatashared",name);
+                editor.putString("dataofuser",name);
                 editor.apply();
 
                 NotificationManager notificationManager = (NotificationManager) requireActivity().getSystemService(NOTIFICATION_SERVICE);
@@ -94,8 +94,8 @@ public class ChangeName extends Fragment {
                 Toast.makeText(requireActivity(),"It's done" + name,Toast.LENGTH_SHORT);
             }
 
-            SharedPreferences getData = getActivity().getSharedPreferences("UsersDatashared",MODE_PRIVATE);
-            String final_name = getData.getString("usersdatashared","");
+            SharedPreferences getData = getActivity().getSharedPreferences("DataOfUser",MODE_PRIVATE);
+            String final_name = getData.getString("dataofuser","");
         });
         return rootView;
     }

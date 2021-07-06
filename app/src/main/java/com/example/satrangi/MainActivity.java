@@ -50,8 +50,8 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
 
-        SharedPreferences getNamefornav = getSharedPreferences("UsersDatashared",MODE_PRIVATE);
-        String final_name = getNamefornav.getString("usersdatashared","");
+        SharedPreferences getNamefornav = getSharedPreferences("DataOfUser",MODE_PRIVATE);
+        String final_name = getNamefornav.getString("dataofuser","");
 
         NavigationView nav_for_text = findViewById(R.id.nav_view);
         View headerView = nav_for_text.getHeaderView(0);
